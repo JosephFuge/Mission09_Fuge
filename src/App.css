@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -15,7 +17,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +37,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Heading {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HeadingText {
+  width: 70%;
+}
+
+.TeamList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.TeamCard {
+  border: 4px solid grey;
+  border-radius: 16px;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
 }
